@@ -4,7 +4,8 @@
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\PII_TwitterApi\src\Library\Library.csproj"/>
-    <ProjectReference Include="..\..\..\PII_CognitiveAPI\src\Library\Library.csproj"/>
+    <PackageReference Include="SixLabors.ImageSharp.Drawing" version="1.0.0-beta0005"/>
+    <ProjectReference Include="..\..\..\TwitterApi\src\Library\Library.csproj"/>
+    <ProjectReference Include="..\..\..\CognitiveAPI\src\Library\Library.csproj"/>
   </ItemGroup>
 </Project>
